@@ -8,7 +8,7 @@ class Recomendacion {
 	private:
 		Matriz Matriz_;
 		std::vector<Usuario> usuarios_;
-		unsigned type_;
+		unsigned tipo_;
 
 	public:
 		Recomendacion (void);
@@ -16,9 +16,9 @@ class Recomendacion {
 		~Recomendacion (void);
 
 
-		unsigned getType (void) const;
+		unsigned getTipo (void) const;
 
-		void setType (unsigned newType);
+		void setTipo (unsigned newTipo);
 
 		void runProgram (void);
 		void generarUsuarios (void);
